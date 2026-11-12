@@ -1,0 +1,27 @@
+{
+  "name": "حسابداری شخصی مسعود",
+  "short_name": "حسابداری",
+  "description": "حسابداری شخصی، وام‌ها و کارهای روزانه — کار می‌کند بدون اینترنت",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0F2027",
+  "theme_color": "#0F2027",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

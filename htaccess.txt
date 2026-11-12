@@ -1,0 +1,7 @@
+# اگر هاستت Apache / cPanel است، این فایل را به «.htaccess» تغییر نام بده و کنار index.html بگذار.
+# کار این فایل: وقتی نسخه‌ی جدید برنامه را آپلود کردی، گوشی‌ها فایل‌های اصلی را از کش مرورگر نخوانند و نسخه‌ی تازه را بگیرند.
+<IfModule mod_headers.c>
+  <FilesMatch "^(sw\.js|index\.html|manifest\.json)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+</IfModule>
